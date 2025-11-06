@@ -18,11 +18,42 @@ This is my First Project.
 - **Matplotlib**
 - **Datetime**
 
-## 🚀 How to Run
-1. Clone the repo:
-   ```bash
-   git clone https://github.com/<yunus-ai>/expense_tracker.git 
+⚙️ How to Run
+
+1️⃣ Clone the repository:
+
+git clone https://github.com/<your-username>/expense_tracker.git
+cd expense_tracker
+
+
+2️⃣ Install dependencies:
+
+pip install -r requirements.txt
+
+
+3️⃣ Run the script:
+
+python expense_tracker.py
+
+
+4️⃣ Output:
+
+All expenses are stored in expenses.csv.
+
+Pie chart of spending by category will be saved as expense_chart.png.
+
+📂 Example Project Structure
+expense_tracker/
+│
+├── expense_tracker.py
+├── expenses.csv
+├── expense_chart.png
+├── requirements.txt
+└── README.md
+
+👨‍💻 Author
 
 Yunus
 📍 Data Science & AI Enthusiast
-📧 Contact: yunusshaikhy2006@gmail.com
+📧 yunusshaikhy2006@gmail.com
+
